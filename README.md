@@ -1,54 +1,49 @@
-# React + TypeScript + Vite
+# Oral History Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a digital presentation of an oral history interview, built with **Vite**, **React**, **TypeScript**, and **TailwindCSS**. It showcases the life and reflections of Anneke Bos van der Vis, exploring how historical events such as the Cold War influenced her experiences in the Netherlands.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Responsive UI** using TailwindCSS
+- **Modern Stack** with Vite + TypeScript + React
+- **Interactive Timeline** powered by react-vertical-timeline-component
+- **Accessible Design** via semantic HTML and ARIA roles
+- **Lazy Loading**, **Smooth Scrolling**, and performance optimizations
 
-## Expanding the ESLint configuration
+## Structure Overview
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- \`App.tsx\` — Root layout and routing (if used)
+- \`main.tsx\` — Vite entry point
+- \`Header.tsx\` — Page header and navigation
+- \`FinalProduct.tsx\` — Full compiled final version of the page
+- \`IntervieweeProfile.tsx\` — Bio and intro of the interviewee
+- \`InterviewQuestions.tsx\` — List of questions asked during the interview
+- \`TranscriptSection.tsx\` — Full written transcript of the interview
+- \`ResearchNotes.tsx\` — Historical background and contextual notes
+- \`TimelineSection.tsx\` — Chronological events and Cold War context
+- \`VideoSection.tsx\` — Video embed or controls
+- \`TooMuchWork.tsx\` — Placeholder/fun dev message or alt content
+- \`types/timeline.d.ts\` — Type definitions for timeline events
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## Tech Stack
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+- **Vite** — Lightning-fast development environment
+- **React** (with **TypeScript**)
+- **TailwindCSS**
+- **Lucide Icons**
+- **react-vertical-timeline-component**
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## How to Use
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+1. Clone this repository
+2. Install dependencies: \`npm install\`
+3. Start development server: \`npm run dev\`
+4. Edit content in \`src/components/\` as needed (e.g., \`IntervieweeProfile.tsx\`, \`TimelineSection.tsx\`, etc.)
+
+## License
+
+This project is free to use for educational and non-commercial purposes.
+You are encouraged to modify and build upon it for school or personal oral history documentation.
+
+---
+Created by Pepijn Snoeren with ❤️
