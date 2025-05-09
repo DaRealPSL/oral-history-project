@@ -4,6 +4,7 @@ import IntervieweeProfile from "./components/IntervieweeProfile";
 import InterviewQuestions from "./components/InterviewQuestions";
 import ResearchNotes from "./components/ResearchNotes";
 import TimelineSection from "./components/TimelineSection";
+// import TooMuchWork from "./components/TooMuchWork";
 import TranscriptSection from "./components/TranscriptSection";
 import VideoSection from "./components/VideoSection";
 
@@ -29,6 +30,9 @@ export default function App() {
 
         {/* Final Product */}
         <FinalProduct />
+
+        {/* Too mcuh work.. */}
+        {/* <TooMuchWork /> */}
       </main>
     </div>
   );
