@@ -36,19 +36,19 @@ export default function IntervieweeProfile() {
 
           <div className="text-sm leading-relaxed space-y-4">
             <p>
-              Anneke Bos van der Vis grew up in a small Dutch village between Alphen aan den Rijn and Leiden. She was one of five children in a close-knit family, and her early life was shaped more by local routines than by global politics.
+              Anneke Bos van der Vis grew up in a small village in the Netherlands, between the towns of Alphen aan den Rijn and Leiden. She was one of five children in a close family. Her daily life was quiet and simple, focused on home and school.
             </p>
             <p>
-              During her childhood, the Cold War wasn't widely discussed at home or school. It wasn't until the Hungarian Uprising in 1956 that she began to understand there was a world beyond her own — a world with conflict, fear, and repression. She recalls how refugees from Hungary arrived in the Netherlands and how this marked her first awareness of international tension.
+              When she was young, people did not talk much about world events. The Cold War was not often mentioned. But in 1956, during the Hungarian Uprising, she started to notice what was happening in the world. Refugees from Hungary came to the Netherlands, and this made her aware of problems in other countries.
             </p>
             <p>
-              As she grew older, events like the construction of the Berlin Wall and the nuclear arms race became more visible through news reports and public demonstrations. In the 1980s, she experienced protests against nuclear weapons firsthand and remembers how people feared what could happen if "someone pressed the button."
+              As she became older, she saw more news about the Cold War. She remembers the Berlin Wall and the nuclear weapons race. In the 1980s, she took part in protests against these weapons. She says people were afraid of what could happen if something went wrong.
             </p>
             <p>
-              Her experience is deeply personal, including memories of her family's religious community, the Broedergemeente, hosting East German guests who had to report daily to the police — a clear reminder of life behind the Iron Curtain.
+              Her family was part of a religious community called the Broedergemeente. They hosted guests from East Germany who had to report to the police every day. This showed her how different life was in countries with less freedom.
             </p>
             <p>
-              Anneke is my grandmother, and I chose to interview her because her lived experiences give insight into how ordinary people in the Netherlands made sense of extraordinary global events.
+              Anneke is my grandmother. I chose to interview her because her stories help me understand what life was like in the Netherlands during the Cold War. She lived through a time when people were worried about war, but still tried to live normal lives.
             </p>
           </div>
         </div>
