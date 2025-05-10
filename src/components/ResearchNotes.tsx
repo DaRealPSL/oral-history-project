@@ -39,7 +39,7 @@ export default function ResearchNotes() {
               It was a widely publicized event in Europe, and Anneke recalls the anxiety at the time.
             </p>
             <p className="text-sm text-blue-400 mt-1">
-              Source: https://www.history.com/topics/cold-war/cuban-missile-crisis
+              Source: https://history.state.gov/milestones/1961-1968/cuban-missile-crisis
             </p>
           </div>
 
