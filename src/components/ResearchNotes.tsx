@@ -61,7 +61,7 @@ export default function ResearchNotes() {
               were central to Anneke's childhood environment.
             </p>
             <p className="text-sm text-blue-400 mt-1">
-              Source: https://encyclopedievanzeeland.nl/Post-War_Reconstruction
+              Source: https://wederopbouwrotterdam.nl/en/articles/post-war-reconstruction#:~:text=Reconstruction%20is%20the%20term%20used,the%20ultimate%20City%20of%20Reconstruction.
             </p>
           </div>
         </div>
