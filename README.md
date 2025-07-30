@@ -10,21 +10,6 @@ This project is a digital presentation of an oral history interview, built with 
 - **Accessible Design** via semantic HTML and ARIA roles
 - **Lazy Loading**, **Smooth Scrolling**, and performance optimizations
 
-## Structure Overview
-
-- \`App.tsx\` — Root layout and routing (if used)
-- \`main.tsx\` — Vite entry point
-- \`Header.tsx\` — Page header and navigation
-- \`FinalProduct.tsx\` — Full compiled final version of the page
-- \`IntervieweeProfile.tsx\` — Bio and intro of the interviewee
-- \`InterviewQuestions.tsx\` — List of questions asked during the interview
-- \`TranscriptSection.tsx\` — Full written transcript of the interview
-- \`ResearchNotes.tsx\` — Historical background and contextual notes
-- \`TimelineSection.tsx\` — Chronological events and Cold War context
-- \`VideoSection.tsx\` — Video embed or controls
-- \`TooMuchWork.tsx\` — Placeholder/fun dev message or alt content
-- \`types/timeline.d.ts\` — Type definitions for timeline events
-
 ## Tech Stack
 
 - **Vite** — Lightning-fast development environment
@@ -46,4 +31,4 @@ This project is free to use for educational and non-commercial purposes.
 You are encouraged to modify and build upon it for school or personal oral history documentation.
 
 ---
-Created by Pepijn Snoeren with ❤️
+Created by Pepijn with ❤️
