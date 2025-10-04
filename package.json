@@ -13,7 +13,7 @@
     "@babel/preset-env": "^7.27.2",
     "@tailwindcss/vite": "^4.0.15",
     "@types/react-lazy-load-image-component": "^1.6.4",
-    "axios": "^1.8.4",
+    "axios": "^1.12.1",
     "framer-motion": "^12.5.0",
     "lucide-react": "^0.483.0",
     "motion": "^12.5.0",
